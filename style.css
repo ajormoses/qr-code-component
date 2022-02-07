@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  background-color: hsl(212, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+img {
+  width: 100%;
+}
+
+.container-box {
+  height: 100%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.container-img img {
+  width: 90%;
+  position: relative;
+  top: 20px;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.container-text {
+  width: 80%;
+  position: relative;
+  top: 20px;
+  left: 50%;
+  padding-bottom: 30px;
+  transform: translateX(-50%);
+}
+
+.container-box h1 {
+  font-size: 1.3rem;
+  color: hsl(218, 44%, 22%);
+}
+
+.container-box p {
+  color: hsl(220, 15%, 55%);
+}
+
+@media only screen and (min-width: 540px) {
+  .container {
+    width: 57%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 45%;
+  }
+
+  .container-box h1 {
+    font-size: 1.5rem;
+  }
+
+  .container-box p {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container {
+    width: 25%;
+  }
+
+  .container-box h1 {
+    font-size: 1rem;
+  }
+
+  .container-box p {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .container {
+    width: 20%;
+  }
+
+  .container-box h1 {
+    font-size: 1.1rem;
+  }
+
+  .container-box p {
+    font-size: 0.9rem;
+  }
+}
